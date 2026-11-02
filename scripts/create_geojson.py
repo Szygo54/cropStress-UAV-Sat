@@ -2,8 +2,8 @@ import json
 import rasterio
 from rasterio.warp import transform_geom
 
-tif_path = "Wegrzce_tify/01W1509.tif"  # Ścieżka do dowolnego nalotu z Węgrzc
-geojson_path = "results/wegrzce_aoi.geojson"
+tif_path = "Wegrzce_tify/01W0209.tif"  # Ścieżka do dowolnego nalotu z Węgrzc
+geojson_path = "results/geojson/wegrzce_aoi-02-09.geojson"
 
 with rasterio.open(tif_path) as src:
     b = src.bounds
