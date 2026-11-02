@@ -2,4 +2,4 @@ wegrzce_tify/
 *.tif
 *.tiff
 .env
-.xlsx
+*.xlsx
