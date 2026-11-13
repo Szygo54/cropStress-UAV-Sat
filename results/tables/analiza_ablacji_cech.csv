@@ -1,0 +1,7 @@
+Konfiguracja cech (Ablacja),Liczba cech,NDVI R2 (Bezpośr.),NDVI R2 (Różnica UAV-PS),SAVI R2 (Bezpośr.),SAVI R2 (Różnica UAV-PS),RENDVI R2 (Bezpośr.),RENDVI R2 (Różnica UAV-PS),NDWI R2 (Bezpośr.),NDWI R2 (Różnica UAV-PS)
+1. Bazowe (5 wsk. bez CIre),5,0.672,0.67,0.423,0.425,0.563,0.562,0.679,0.683
+2. + Surowe pasma (5 pasm),10,0.673,0.673,0.423,0.423,0.568,0.573,0.683,0.684
+3. + Interakcje glebowe,13,0.677,0.677,0.422,0.421,0.569,0.571,0.686,0.689
+4. + Sąsiedztwo 3x3 (bez Z-score),28,0.717,0.723,0.451,0.46,0.631,0.635,0.719,0.723
+5. Pełny satelitarny (+3x3 +Z-score),33,0.718,0.724,0.45,0.46,0.634,0.64,0.716,0.723
+6. Górna granica referencyjna (+FVC),29,0.859,0.859,0.539,0.542,0.753,0.748,0.8,0.806
